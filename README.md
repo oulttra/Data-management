@@ -25,23 +25,41 @@ This project focuses on predicting whether a household’s electricity consumpti
 **Dependencies**:
 
 Ensure the following Python libraries are installed:
+
 import pandas as pd
+
 import matplotlib.pyplot as plt
+
 import seaborn as sns
+
 import numpy as np
+
 import xgboost
+
 import sklearn
+
 from sklearn.model_selection import train_test_split
+
 from sklearn.linear_model import LogisticRegression
+
 from sklearn.preprocessing import StandardScaler
+
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+
 import matplotlib.pyplot as plt
+
 from sklearn.pipeline import Pipeline
+
 from sklearn.metrics import roc_curve, roc_auc_score, classification_report, accuracy_score, confusion_matrix
+
 from sklearn.ensemble import BaggingClassifier
+
 from sklearn.tree import DecisionTreeClassifier
+
 from sklearn.model_selection import cross_val_score
+
 from sklearn.tree import DecisionTreeRegressor
+
 from sklearn.tree._export import plot_tree
 
 **Warning** : xgboost and sklearn should have the same version
